@@ -1,0 +1,65 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  line-height: 1.8em;
+  color: #666;
+}
+.pimg1 {
+  background-image: url("https://i.ytimg.com/vi/49HTIoCccDY/hq720.jpg?sqp=-…BACGAY4AUAB&rs=AOn4CLAX8V-cOQNNbQmbxel-uxPYOP66XQ");
+  min-height: 100%;
+}
+.pimg2 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/1024px-Taj_Mahal_%28Edited%29.jpeg");
+  min-height: 400px;
+}
+.pimg3 {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Flowers_on_a_wall_%28Unsplash%29.jpg/1024px-Flowers_on_a_wall_%28Unsplash%29.jpg");
+  min-height: 400px;
+}
+
+.pimg4{
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Taj_Mahal_Mosque%2C_Agra.jpg/1024px-Taj_Mahal_Mosque%2C_Agra.jpg");
+  min-height: 400px;
+}
+.pimg1,
+.pimg2,
+.pimg3,.pimg4{
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.ptext {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  letter-spacing: 8px;
+  text-transform: uppercase;
+}
+.textBg {
+  background: #313534;
+  color: #fff;
+  padding: 20px;
+}
+
+.section {
+  padding: 50px 80px;
+  text-align: center;
+}
+.section-light {
+  background-color: #f4f4f4;
+  color: #666;
+}
+.section-dark {
+  background-color: #282e34;
+  color: #ddd;
+}
