@@ -28,7 +28,7 @@ Check out the live demo here: [https://vaibhavibaware.github.io/parallax.Website
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/vaibhavibaware/parallax.Website.git
+   git clone https://github.com/vaibhavibaware/parallax.Websi te.git
 2.**Navigate to the project directory:**
 cd parallax.Website
 Open index.html in your preferred web browser:
